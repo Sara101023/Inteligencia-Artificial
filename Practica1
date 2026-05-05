@@ -1,0 +1,101 @@
+Práctica 1 - Búsqueda a ciegas
+
+En esta tarea, se exploraron los conceptos de algoritmos de búsqueda ciega, específicamente la búsqueda en profundidad (DFS) y la búsqueda en amplitud (BFS). Se aplicaron estos algoritmos para resolver diversos problemas, medir su rendimiento y presentar los hallazgos. A continuación, se muestran las instrucciones detalladas que se siguieron durante la tarea.
+
+Objetivos
+Al final de esta tarea, se logró:
+
+Implementar los algoritmos DFS y BFS.
+
+Resolver problemas usando estos algoritmos.
+
+Medir y analizar los tiempos de ejecución y el consumo de memoria.
+
+Presentar las soluciones en una interfaz gráfica fácil de usar.
+
+Utilizar entornos de desarrollo modernos para el código.
+
+Tareas de asignación
+Implementación de algoritmos de búsqueda ciega
+Se implementaron tanto los algoritmos DFS como BFS. Así fue como se abordó esta tarea:
+
+Entendimiento de los algoritmos:
+
+Búsqueda en profundidad (DFS): Este algoritmo explora en la medida de lo posible a lo largo de cada rama antes de retroceder. Se buscó familiarizarse con su naturaleza recursiva y cómo utiliza una pila.
+
+Búsqueda en Amplitud (BFS): Este algoritmo explora todos los nodos vecinos en la profundidad actual antes de pasar a nodos en el siguiente nivel de profundidad. Se comprendió cómo utiliza una cola para sus operaciones.
+
+Resolución de problemas
+Se aplicaron los algoritmos a los siguientes problemas:
+
+A. Laberintos
+
+Creación de laberintos: Se generaron laberintos de tamaños 10x10, 20x20 y 50x50. Se podían crear estos laberintos al azar o usar patrones predefinidos. En esta ocasión, el laberinto ya vino con un tamaño predeterminado.
+
+Implementación de los algoritmos: Se usaron tanto DFS como BFS para encontrar un camino a través de cada laberinto.
+
+B. El problema de las jarras
+
+Entendimiento del problema: Se investigó el problema clásico de medir agua usando dos garrafas de capacidades diferentes.
+
+Implementación de soluciones: Se utilizaron ambos algoritmos para encontrar una solución a este problema, asegurándose de definir claramente los estados y las transiciones.
+
+C. El problema de los 8 puzles
+
+Definición del puzle: El rompecabezas de 8 consiste en una cuadrícula de 3x3 con 8 fichas numeradas y un espacio vacío. El objetivo es organizar las fichas en un orden específico.
+
+Implementación de los algoritmos: Se usaron DFS y BFS para resolver el acertijo. Se pensó en cómo representar el estado del rompecabezas y los posibles movimientos.
+
+Medición del rendimiento
+Para cada algoritmo y problema, se midió:
+
+Tiempo de ejecución: Se registró cuánto tiempo tardó cada algoritmo en encontrar una solución.
+
+Consumo de memoria: Se analizó cuánta memoria utilizó cada algoritmo durante la ejecución. Esto implicó rastrear el tamaño de la pila o cola utilizada en las implementaciones.
+
+Escenarios de complejidad
+Se consideró variar la complejidad de cada problema:
+
+Laberintos: Se experimentó con diferentes configuraciones de muros y caminos.
+
+Problema de las jarras: Se probaron diferentes capacidades de jarras y mediciones objetivo.
+
+8-Puzzle: Se utilizaron diferentes configuraciones iniciales de las fichas.
+
+Interfaz gráfica
+
+Diseño de una interfaz de usuario: Se creó una interfaz gráfica sencilla para mostrar el laberinto, los estados de la jarra y el 8-puzzle. Esto se hizo usando librerías disponibles en el lenguaje de programación elegido.
+
+Visualización del proceso de búsqueda: Se mostró cómo los algoritmos exploran el espacio del problema. Esto incluyó animaciones o visualizaciones paso a paso.
+
+Entorno de Desarrollo
+Se usaron GitHub Actions o Docker:
+
+GitHub Actions: Se configuró un flujo de trabajo para ejecutar automáticamente el código y las pruebas al enviar cambios al repositorio.
+
+Docker: Se consideró contenerizar la aplicación para asegurar que se ejecutara de forma consistente en diferentes entornos.
+
+Entregables
+Se debió presentar lo siguiente:
+
+Informe: Se elaboró un informe detallado que incluyó:
+
+Una introducción a los algoritmos y problemas.
+
+Una descripción de la implementación y de los posibles desafíos enfrentados.
+
+Resultados de las mediciones de rendimiento (tiempo de ejecución y consumo de memoria).
+
+Capturas de pantalla o descripciones de la interfaz gráfica.
+
+Repositorio de Código: Se proporcionó un enlace al repositorio donde se almacenan los códigos de solución. Se aseguró que el código estuviera bien documentado y organizado.
+
+Uso de IA: Si se utilizó alguna herramienta o prompt de IA durante el trabajo, se incluyó una sección en el informe detallando los prompts utilizados, así como la IA empleada.
+
+Formato: Word o Markdown.
+
+Presentación de resultados
+Los resultados de la práctica se presentaron el día 10 de marzo en el laboratorio LP3, en el 1107. Únicamente debió presentarse un integrante del equipo, quien explicó los resultados y resolvió cualquier duda respecto al trabajo.
+
+Conclusión
+Esta tarea ayudó a profundizar en la comprensión de los algoritmos de búsqueda y sus aplicaciones. Se tomó el tiempo para explorar cada problema a fondo y no dudó en pedir ayuda si encontró alguna dificultad.
